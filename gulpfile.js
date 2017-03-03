@@ -1,0 +1,1 @@
+require('lapi-dev').registerGulpTasks();

@@ -1,0 +1,36 @@
+{
+  "name": "lapi-test",
+  "version": "1.0.0",
+  "description": "Testing classes for LAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp test",
+    "dev": "./node_modules/.bin/gulp watch:test",
+    "deploy": "./node_modules/.bin/gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iobox/lapi-test.git"
+  },
+  "keywords": [
+    "lapi",
+    "test",
+    "api",
+    "call",
+    "rest",
+    "automation"
+  ],
+  "author": "Long Do <me@dotronglong.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iobox/lapi-test/issues"
+  },
+  "homepage": "https://github.com/iobox/lapi-test#readme",
+  "devDependencies": {
+    "lapi-dev": "^1.0.x"
+  },
+  "dependencies": {
+    "lapi-http": "^1.0.x",
+    "lapi-common": "^1.0.x"
+  }
+}
